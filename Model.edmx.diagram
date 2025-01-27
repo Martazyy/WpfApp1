@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="1181ad2498904b90b51947fc95a838aa" Name="Diagram1" ZoomLevel="51">
+        <EntityTypeShape EntityType="restoranchikDBModel.Categories" Width="1.5" PointX="5.75" PointY="10.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="restoranchikDBModel.CustomerOrderHistory" Width="1.5" PointX="3" PointY="3.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="restoranchikDBModel.Customers" Width="1.5" PointX="0.75" PointY="3.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="restoranchikDBModel.Dishes" Width="1.5" PointX="8" PointY="10.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="restoranchikDBModel.Drinks" Width="1.5" PointX="10.75" PointY="1.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="restoranchikDBModel.Employees" Width="1.5" PointX="3" PointY="7.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="restoranchikDBModel.Ingredients" Width="1.5" PointX="8" PointY="7.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="restoranchikDBModel.OrderItems" Width="1.5" PointX="8.25" PointY="3.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="restoranchikDBModel.Orders" Width="1.5" PointX="6" PointY="3.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="restoranchikDBModel.Payments" Width="1.5" PointX="3.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="restoranchikDBModel.Suppliers" Width="1.5" PointX="5.75" PointY="7.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="restoranchikDBModel.SystemRoles" Width="1.5" PointX="0.75" PointY="8" IsExpanded="true" />
+        <EntityTypeShape EntityType="restoranchikDBModel.WorkRoles" Width="1.5" PointX="0.75" PointY="11" IsExpanded="true" />
+        <AssociationConnector Association="restoranchikDBModel.FK_Dishes_Categories" ManuallyRouted="false" />
+        <AssociationConnector Association="restoranchikDBModel.FK_CustomerOrderHistory_Customers" ManuallyRouted="false" />
+        <AssociationConnector Association="restoranchikDBModel.FK_CustomerOrderHistory_Orders" ManuallyRouted="false" />
+        <AssociationConnector Association="restoranchikDBModel.FK_Orders_Customers" ManuallyRouted="false" />
+        <AssociationConnector Association="restoranchikDBModel.FK_Employees_SystemRoles" ManuallyRouted="false" />
+        <AssociationConnector Association="restoranchikDBModel.FK_Employees_WorkRoles" ManuallyRouted="false" />
+        <AssociationConnector Association="restoranchikDBModel.FK_Ingredients_Suppliers" ManuallyRouted="false" />
+        <AssociationConnector Association="restoranchikDBModel.FK_OrderItems_Orders" ManuallyRouted="false" />
+        <AssociationConnector Association="restoranchikDBModel.FK_Orders_Payments" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
